@@ -40,7 +40,8 @@ This is a repository for CS21 - Part B
 
 ## ALUSrcB Modes
 
-1. 00 has no mapping yet, probably an immediate, 01 could be the memory, so on so forth
+1. 00 is for Mem[MemAdd]
+2. 01 is for the immediate that is entered
 
 ## CFSrc Modes
 
@@ -48,4 +49,5 @@ This is not implemented, but here's the idea:
 
 1. 00 is for fixed zero
 2. 01 is for fixed one.
-3. 10 is for output from ALU, and so on and so forth
+3. 10 is for the overflow / underflow bit from an ALU operation
+4. 11 is for the NBit that happens during a rotate ALU operation
