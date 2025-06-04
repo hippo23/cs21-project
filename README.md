@@ -11,11 +11,16 @@ This is a repository for CS21 - Part B
 
 ## ALU Modes
 
-1. 00 is for rotation to the left
-2. 01 is for rotation to the right
+1. 0000 is for rotation to the left
+2. 0001 is for rotation to the right
    * There should probably be some trigger here so that the overflow bit can be outputted
-3. 10 is for addition
-4. 11 is for subtraction
+3. 0010 is for addition
+4. 0011 is for subtraction
+5. 0100 is for AND
+6. 0101 is for OR
+7. 0110 is for XOR
+8. 0111 is for rotation to the left WITH CF bit
+9. 1000 is for rotation to the right WITH CF bit
 
 ## ResultSrc Modes
 
@@ -30,7 +35,7 @@ This is a repository for CS21 - Part B
 ## ALUSrcA Modes
 
 1. 00 should be for the currently-read register at ACC
-2. 01 should be for CF:ACC (we can precompute this)
+2. 01 should be for Mem[MemAdd]
 3. 10 should be for CF + ACC (again, precompute this)
 
 ## ALUSrcB Modes
