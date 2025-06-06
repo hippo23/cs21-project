@@ -11,7 +11,7 @@ This is a repository for CS21 - Part B
 | Basic Mem INC and DEC | 00001 | 100 - 111 | 1st bit specifies the operation | 2nd bit specifies the MemAdd | --- | --- |
 | General Purpose Register INC and DEC | 0001X | --- |  --- | --- | --- | Refer to CS21 docs for function |
 | Bitwise Operations | 00011 | (010 - 00) OR (101 - 111) | --- | --- | --- | The value of the last three bits are used directly to determine operation and destination |
-| ACC to \ from General Purpose Registers | 0010X | --- | --- | --- | Refer to CS21 docs for function | 
+| ACC to \ from General Purpose Registers | 0010X | --- | --- | --- | --- | Refer to CS21 docs for function | 
 | Clear and set CF | 00101 | 010 - 011 | 1st bit is used to determine if we are adding 0 or 1 | --- | --- | --- |
 | 12 bits of PC to temp, temp to 0 | 00101 | 110 | --- | --- | --- | Only one func3, so we can hardcode what happens |
 
